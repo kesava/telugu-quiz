@@ -128,6 +128,12 @@ function QuizApp({ quizKey }: { quizKey: string }) {
           exit={{ opacity: 0, x: -100 }}
           className="quiz-card"
         >
+
+            <h1 className="quiz-title">Can you guess the meaning?
+                <div className="quiz-subtitle">
+                    ({quizQuestions.length} questions)
+                </div>
+            </h1>
           <h2 className="quiz-question">
             {quizQuestions[currentQuestion].question}
           </h2>

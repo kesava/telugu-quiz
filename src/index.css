@@ -115,7 +115,7 @@ body {
   .quiz-footer a:hover {
     text-decoration: underline;
   }
-  
+
   @media (max-width: 600px) {
     .quiz-container {
       padding: 10px;
@@ -131,4 +131,17 @@ body {
       font-size: 0.9rem;
       padding: 10px;
     }
+  }
+
+  .quiz-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+
+  .quiz-subtitle {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #666;
+    margin-left: 0.5em;
   }
