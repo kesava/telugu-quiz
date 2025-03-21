@@ -90,7 +90,7 @@ const quizzes: Quizzes = {
         },
         {
           "question": "యాలం",
-          "options": ["a endingspice", "an auction", "a balance"],
+          "options": ["a spice", "an auction", "a balance"],
           "answer": "an auction"
         },
         {
