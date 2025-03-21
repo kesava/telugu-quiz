@@ -67,19 +67,58 @@ const quizzes: Quizzes = {
         "answer": "interpreter"
       }
     ],
-
-  quiz2: [
-    {
-      question: "What is 2 + 2?",
-      options: ["3", "4", "5", "6"],
-      answer: "4",
-    },
-  {
-    question: "What is the boiling point of water?",
-    options: ["90°C", "100°C", "110°C", "120°C"],
-    answer: "100°C",
-  },
-  ],
+    "quiz2": [
+        {
+          "question": "తరమరలుగా",
+          "options": ["from confusion to confusion", "from generation to generation", "abundantly"],
+          "answer": "from generation to generation",
+        },
+        {
+          "question": "బుటేదారు",
+          "options": ["tax collector", "corn farmer", "embroidery worker"],
+          "answer": "embroidery worker"
+        },
+        {
+          "question": "బేగి",
+          "options": ["quickly", "unkempt beard", "savory snack"],
+          "answer": "quickly"
+        },
+        {
+          "question": "ముక్తాయింపు",
+          "options": ["extortion", "ending", "liberation"],
+          "answer": "extortion"
+        },
+        {
+          "question": "యాలం",
+          "options": ["a endingspice", "an auction", "a balance"],
+          "answer": "a spice"
+        },
+        {
+          "question": "పరకామణి",
+          "options": ["cash room", "emerald", "court room"],
+          "answer": "cash room"
+        },
+        {
+          "question": "వాడగాలి",
+          "options": ["breeze", "hot northern winds", "viral winds"],
+          "answer": "hot northern winds"
+        },
+        {
+          "question": "సీతదుక్కి",
+          "options": ["summer ploughing", "winter ploughing"],
+          "answer": "winter ploughing"
+        },
+        {
+          "question": "దుబారా",
+          "options": ["twice", "thrice", "times"],
+          "answer": "twice"
+        },
+        {
+          "question": "మేజోళ్ళు",
+          "options": ["spectacles", "socks", "sandals"],
+          "answer": "socks"
+        }
+      ],
 };
 
 function QuizApp({ quizKey }: { quizKey: string }) {
@@ -192,7 +231,7 @@ export default function App() {
             <div className="quiz-container">
               <h1 className="quiz-title">Choose a Telugu Vocabulary Quiz</h1>
               <Link to="/quiz1" className="quiz-next">Quiz 1</Link>
-              {/* <Link to="/quiz2" className="quiz-next">Quiz 2</Link> */}
+              <Link to="/quiz2" className="quiz-next">Quiz 2</Link>
             </div>
           }
         />
