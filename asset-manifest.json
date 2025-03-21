@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/telugu-quiz/static/css/main.e82bfa3f.css",
-    "main.js": "/telugu-quiz/static/js/main.c05501c4.js",
+    "main.js": "/telugu-quiz/static/js/main.4d678547.js",
     "static/js/453.ed3810f9.chunk.js": "/telugu-quiz/static/js/453.ed3810f9.chunk.js",
     "index.html": "/telugu-quiz/index.html",
     "main.e82bfa3f.css.map": "/telugu-quiz/static/css/main.e82bfa3f.css.map",
-    "main.c05501c4.js.map": "/telugu-quiz/static/js/main.c05501c4.js.map",
+    "main.4d678547.js.map": "/telugu-quiz/static/js/main.4d678547.js.map",
     "453.ed3810f9.chunk.js.map": "/telugu-quiz/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e82bfa3f.css",
-    "static/js/main.c05501c4.js"
+    "static/js/main.4d678547.js"
   ]
 }
