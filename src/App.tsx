@@ -86,12 +86,12 @@ const quizzes: Quizzes = {
         {
           "question": "ముక్తాయింపు",
           "options": ["extortion", "ending", "liberation"],
-          "answer": "extortion"
+          "answer": "ending"
         },
         {
           "question": "యాలం",
           "options": ["a endingspice", "an auction", "a balance"],
-          "answer": "a spice"
+          "answer": "an auction"
         },
         {
           "question": "పరకామణి",
