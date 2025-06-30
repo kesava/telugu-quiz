@@ -1,13 +1,31 @@
-
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
-import React from "react";
+import { HashRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
+import React, { useEffect } from "react";
 import { VerbalQuizApp } from "./VerbalQuizApp";
 import { VisualQuizApp } from "./VisualQuizApp";
 
+// Add this component inside Router to update the title
+function TitleUpdater() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "/quiz1") {
+      document.title = "Telugu Quiz 1";
+    } else if (location.pathname === "/quiz2") {
+      document.title = "Telugu Quiz 2";
+    } else if (location.pathname === "/vq1") {
+      document.title = "Hindu Gods' Weapons Quiz";
+    } else {
+      document.title = "Telugu Vocabulary Quizzes";
+    }
+  }, [location.pathname]);
+
+  return null;
+}
 
 export default function App() {
   return (
     <Router>
+      <TitleUpdater />
       <Routes>
         <Route
           path="/"
